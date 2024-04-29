@@ -1,5 +1,5 @@
 ## Hidden Agenda!
 
-tob eat ver 0.0.1
+ffer tob eat for fun with happy feeling for fun, happy happy happy. 
 
-By Adexe
+Author [Adexe](https://github.com/alifianadexe)
