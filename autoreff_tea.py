@@ -46,7 +46,7 @@ for email, password in emails_passwords:
             driver.click("#passwordNext > div > button")
             
             driver.sleep(10) 
-            url ="https://app.tea.xyz/sign-up?r=04kbnjwJ_g_" # Ganti Reff Kalian 
+            url ="<Reff Link In Here>" # Ganti Reff Kalian 
             driver.get(url)
             driver.sleep(1)
 
