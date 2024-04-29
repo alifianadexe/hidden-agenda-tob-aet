@@ -95,10 +95,18 @@ for email, password in emails_passwords:
 
             driver.wait_for_element_present("p.text-green-400", timeout=15)
             driver.sleep(1)
-           
 
             driver.click('button:contains("Complete Registration")')
-            driver.sleep(15)
+            driver.sleep(10)
+
+            driver.get('https://app.tea.xyz/settings')
+            driver.sleep(2)
+            driver.click('button:contains("Add Profile Details")')
+            driver.sleep(2)
+            driver.click('button:contains("Save Changes")')
+            driver.sleep(5)
+
+
         except Exception as e:
             print("This Email Have Exception ", email)
             list_email_error.append((email,password))
